@@ -5,8 +5,13 @@ public class Main01 {
         System.out.println("Hello OCA tests!");
 
         exercise01();
+        exercise02(args);
 
         System.out.println("End OCA tests!");
+    }
+
+    private static void exercise02(String[] args) {
+        for (int i = 0; i < args.length; i++) System.out.print(i == 0 ? args[i] : " " + args[i]);
     }
 
     private static void exercise01() {
