@@ -1,4 +1,4 @@
-package com.oca.building.blocks.initialize;
+package com.oca._01_building_blocks.initialize;
 
 public class Chick {
 
